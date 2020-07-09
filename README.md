@@ -53,6 +53,7 @@ Write a script that will:
   - command (`string`): `default`, `reverse` or `help`
   - start (`int`)
   - end (`int`)
+  - start < end
 
 ### Expected
 
@@ -76,11 +77,19 @@ Write a script that will:
 ./count-script help
 
 count-script: default|reverse START END
+START and END positive integer as START < END
+```
+
+```sh
+./count-script whatever else argument 
+
+count-script: default|reverse START END
+START and END positive integer as START < END
 ```
 
 ## Tips
 
 - Create a new branch with your name to propose your solution
-- Answer the exercices should take about 1 hour
+- Answer the exercices should take about 1 to 2 hours
 
 Feedbacks are welcome :)
