@@ -13,6 +13,6 @@ output "prod_db_specs" {
   value = {
     name            = module.prod_db.db_output.name
     version         = module.prod_db.db_output.version
-    default_region  = module.gdpr_db.db_output.region == var.default_region ? true : false # true for us-central1 and false for eu-west3 or other region
+    default_region  = module.prod_db.db_output.region == var.default_region ? true : false # true for us-central1 and false for eu-west3 or other region
   }
 }
