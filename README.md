@@ -80,7 +80,7 @@ count-script: default|reverse START END
 START and END positive integer as START < END
 ```
 
-Just display always the same error message when the argument are bad.
+Just display always the same error message when the arguments are bad.
 ```
 ./count-script whatever else argument 
 
