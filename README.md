@@ -57,7 +57,7 @@ Write a script that will:
 
 ### Expected
 
-```sh
+```
 ./count-script default 1 3
 
 1
@@ -65,7 +65,7 @@ Write a script that will:
 3
 ```
 
-```sh
+```
 ./count-script reverse 0 2
 
 2
@@ -73,14 +73,15 @@ Write a script that will:
 0
 ```
 
-```sh
+```
 ./count-script help
 
 count-script: default|reverse START END
 START and END positive integer as START < END
 ```
 
-```sh
+Just display always the same error message when the argument are bad.
+```
 ./count-script whatever else argument 
 
 count-script: default|reverse START END
